@@ -10,13 +10,13 @@
 
 <script>
 // @ is an alias to /src
-import DynamicLink from '@/components/DynamicLink'
+import dynamicLink from '@/components/DynamicLink'
 
 export default {
   props: ['type'],
   name: 'home',
   components: {
-    DynamicLink
+    dynamicLink
   }
 }
 </script>
