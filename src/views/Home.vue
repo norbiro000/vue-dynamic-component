@@ -4,7 +4,7 @@
     <dynamicLink :type="'HelloWorld'"></dynamicLink>
     <dynamicLink :type="'HelloMoon'"></dynamicLink>
     <dynamicLink :type="'HelloSun'"></dynamicLink>
-    <dynamicLink :type="'HelloMar'"></dynamicLink>
+    <dynamicLink :type="'HelloMar'"></dynamicLink> // Does not exist component
   </div>
 </template>
 
