@@ -21,7 +21,7 @@ export default {
   mounted () {
     this.loader().then((component) => {
       this.component = () => this.loader()
-    }).catch((e) => {
+    }).catch(() => {
       this.component = () => import('@/components/HelloWorld')
     })
   }
